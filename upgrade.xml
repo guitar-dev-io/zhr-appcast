@@ -1,23 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
-    <title>WashXpress Updates</title>
-    <link>https://your.domain.com/</link>
-    <description>Changelog</description>
+    <title>Zentnova HR Updates</title>
+    <link>https://guitar-dev.github.io/zhr-appcast/</link>
+    <description>Changelog for Zentnova HR Application</description>
 
+    <!-- แจ้งอัปเดตเวอร์ชัน 1.0.3 Build 4 -->
     <item>
-      <title>เวอร์ชัน 1.3.0</title>
-      <sparkle:version>1.3.0</sparkle:version>
-      <!-- ถ้าต้องการแยกเลข build กับเลขที่โชว์ (optional)
-      <sparkle:shortVersionString>1.3.0</sparkle:shortVersionString>
-      -->
+      <title>เวอร์ชัน 1.0.3 (Build 4)</title>
+      
+      <!-- 🔥 1. ตรงนี้ให้ใส่เลข Build (Version Code) ลงไปเลยครับ upgrader จะใช้ตัวนี้เทียบ -->
+      <sparkle:version>4</sparkle:version>
+      
+      <!-- 💡 2. ตัวนี้ใส่เวอร์ชันสากลที่ให้คนอ่าน (Optional) -->
+      <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
+      
       <description><![CDATA[
-        • ปรับปรุงประสิทธิภาพ<br/>
-        • แก้บั๊กจอโหลด
+        • เพิ่มปุ่มอัปเดตแอปอัตโนมัติผ่านไฟล์ APK<br/>
+        • แก้ไขระบบสแกนลายนิ้วมือค้าง<br/>
+        • เพิ่มความเสถียรทั่วไป
       ]]></description>
-      <pubDate>Mon, 11 Aug 2025 10:00:00 +0700</pubDate>
+      <pubDate>Sun, 17 May 2026 17:00:00 +0700</pubDate>
+      
+      <!-- 🔥 3. ตรง url ให้ใส่ลิงก์ตรงที่กดแล้วดาวน์โหลดไฟล์ .apk ทันที -->
+      <enclosure 
+        url="https://appdistribution.firebase.google.com/testerapps/1:521131813066:android:327f17b039566f9bc22c33/releases/4p9cdg14mmf18?utm_source=firebase-console" 
+        sparkle:os="android"
+        type="application/vnd.android.package-archive" />
     </item>
 
-    <!-- เพิ่ม item ใหม่ไว้ด้านบนเสมอ -->
   </channel>
 </rss>
