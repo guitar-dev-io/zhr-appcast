@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>WashXpress Updates</title>
+    <link>https://your.domain.com/</link>
+    <description>Changelog</description>
+
+    <item>
+      <title>เวอร์ชัน 1.3.0</title>
+      <sparkle:version>1.3.0</sparkle:version>
+      <!-- ถ้าต้องการแยกเลข build กับเลขที่โชว์ (optional)
+      <sparkle:shortVersionString>1.3.0</sparkle:shortVersionString>
+      -->
+      <description><![CDATA[
+        • ปรับปรุงประสิทธิภาพ<br/>
+        • แก้บั๊กจอโหลด
+      ]]></description>
+      <pubDate>Mon, 11 Aug 2025 10:00:00 +0700</pubDate>
+    </item>
+
+    <!-- เพิ่ม item ใหม่ไว้ด้านบนเสมอ -->
+  </channel>
+</rss>
