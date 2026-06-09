@@ -7,13 +7,13 @@
 
     <!-- แจ้งอัปเดตเวอร์ชัน 1.0.3 Build 4 -->
     <item>
-      <title>เวอร์ชัน 1.0.3 (Build 4)</title>
+      <title>เวอร์ชัน 1.0.0</title>
       
       <!-- 🔥 1. ตรงนี้ให้ใส่เลข Build (Version Code) ลงไปเลยครับ upgrader จะใช้ตัวนี้เทียบ -->
-      <sparkle:version>4</sparkle:version>
+      <!-- <sparkle:version>4</sparkle:version> -->
       
       <!-- 💡 2. ตัวนี้ใส่เวอร์ชันสากลที่ให้คนอ่าน (Optional) -->
-      <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
+      <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
       
       <description><![CDATA[
         • เพิ่มปุ่มอัปเดตแอปอัตโนมัติผ่านไฟล์ APK<br/>
